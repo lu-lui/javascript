@@ -1,0 +1,18 @@
+<!--Elaborar um programa para uma loja, o qual leia o preço de um produto e informe as opções de pagamento da loja. Calcule e informe o valor para pagamento à vista com 10% e o valor parcelado em 3x-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício c</title>
+</head>
+<body>
+    <script>
+        const produto = Number(prompt("Valor do produto: "))
+        const aVista = produto * 0.90
+        const parcela = produto / 3
+        alert(`Valor do produto: \nR$${aVista.toFixed(2)} ou 3x de R$${parcela.toFixed(2)}`)
+    </script>
+</body>
+</html>
