@@ -1,3 +1,5 @@
+//programa JS que converte a duração de um filme
+
 //cria a referência ao form e aos elementos h3 e h4 (resposta)
 const frm = document.querySelector("form")
 const resp1 = document.querySelector("h3")
