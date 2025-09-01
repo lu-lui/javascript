@@ -18,6 +18,14 @@ frm.addEventListener("submit", (e) =>  {
     
     resp.innerText = `${nome}: Seu peso ideal é ${peso.toFixed(3)} kg`
 
+    /* avaliar condição usando operador ternário:
+
+    (no lugar no if)
+    const peso = masculino ? 22 * Math.pow(altura, 2) : 21 * Math.pow(altura, 2) 
+    
+    se a condição antes de "?" for verdadeira retorna o que está logo após o "?" se não, retorna o que está após o ":"
+    */
+
     e.preventDefault()
 })
 
