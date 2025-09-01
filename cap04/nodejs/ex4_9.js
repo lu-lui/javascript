@@ -5,7 +5,7 @@ const numero = Number(prompt("Número (centena): "))
 
 if (numero < 100 || numero >= 1000) {
     console.log("Erro... O número não é uma centena")
-    return
+    return //faz voltar ao ponto de origem
 } 
 
 const num1 = Math.floor(numero / 100) //obtem o 1° número
