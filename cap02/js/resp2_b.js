@@ -1,7 +1,7 @@
 const frm = document.querySelector("form")
 const resp = document.querySelector("h3")
 
-addEventListener("submit", (e) =>{
+frm.addEventListener("submit", (e) =>{
     const valorUso = Number(frm.inUso.value)
     const tempo = Number(frm.inTempo.value)
 

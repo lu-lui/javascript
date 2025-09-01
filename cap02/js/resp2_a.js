@@ -3,7 +3,7 @@ const resp1 = document.querySelector("#outResp1")
 const resp2 = document.querySelector("#outResp2")
 
 
-addEventListener ("submit", (e) => {
+frm.addEventListener ("submit", (e) => {
     const produto = frm.inMedicamento.value
     const preco = Number(frm.inPreco.value)
 
