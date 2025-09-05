@@ -9,7 +9,7 @@ frm.addEventListener("submit", (e) => {
     const saque = Number(frm.inSaque.value)
     if (saque % 10 != 0) {
         alert("Valor inválido para notas disponíveis (10, 50, 100)")
-        frm.inSaque.focus()
+        frm.inSaque.focus() //faz com que o elemento receba o foco do teclado ou do mouse e se torne o elemento ativo
         return //o programa retorna ao ponto de partida
     }
 
